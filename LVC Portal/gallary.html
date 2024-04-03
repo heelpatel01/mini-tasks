@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Web Page</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        body {
+            background-color: #fcfcf4;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #page {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #head {
+            height: 20%;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        #mid {
+            height: 70%;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+            padding: 0;
+        }
+
+        li {
+            padding: 0 10px;
+        }
+
+        #footer {
+            height: 10%;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item {
+            margin: 20%;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="page">
+        <div id="head">
+            <header>Live Virtual Class</header>
+        </div>
+
+        <div class="index">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>Courses</li>
+                <li>Register</li>
+                <li><a href="gallary.html">Gallery</a></li>
+                <li><a href="contact.html">contact</a></li>
+            </ul>
+        </div>
+
+        <div id="mid">
+            <div class="item">
+            
+
+                <table>
+                    <tr>
+                        <td><img src="https://i.pinimg.com/474x/8c/57/cc/8c57ccd6b683842a37be7ccac949d5e1.jpg" alt="">
+                        </td>
+                        <td><img src="https://i.pinimg.com/474x/0d/14/1c/0d141c6fc6aaddb74008010759bac93d.jpg" alt="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://i.pinimg.com/474x/98/92/aa/9892aa2287165e04207e725d75984299.jpg" alt="">
+                        </td>
+                        <td><img src="https://i.pinimg.com/236x/73/0c/3e/730c3e8340c27d739823bea3102d353c.jpg" alt="">
+                        </td>
+                    </tr>
+                </table>
+
+
+            </div>
+        </div>
+
+        <div id="footer">
+            Developed by: Heel Patel
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

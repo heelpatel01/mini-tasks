@@ -1,0 +1,1 @@
+        -WowSlider.com
